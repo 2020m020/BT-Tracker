@@ -1,4 +1,4 @@
-ld<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -41,6 +41,7 @@ ld<?xml version="1.0" encoding="utf-8"?>
         app:srcCompat="@android:drawable/btn_star" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="376dp"
         android:layout_height="224dp"
         android:layout_marginLeft="8dp"
@@ -123,5 +124,19 @@ ld<?xml version="1.0" encoding="utf-8"?>
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#009688" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/Set_Reminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SetReminder"
+        android:text="Set Reminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.14"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
