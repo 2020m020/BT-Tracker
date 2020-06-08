@@ -62,7 +62,7 @@ ld<?xml version="1.0" encoding="utf-8"?>
             android:onClick="goToLogActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Log Body Temperature"
+            android:text="@string/Log_Body_Temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#009688" />
 
@@ -81,7 +81,7 @@ ld<?xml version="1.0" encoding="utf-8"?>
             android:onClick="goToNormalActivity"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Check Normal Range"
+            android:text="@string/Check_Normal_Range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#009688" />
 
@@ -100,7 +100,7 @@ ld<?xml version="1.0" encoding="utf-8"?>
             android:onClick="goToMechanism"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Mechanism of Fever"
+            android:text="@string/Mechanism_of_Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#009688" />
 
@@ -119,7 +119,7 @@ ld<?xml version="1.0" encoding="utf-8"?>
             android:onClick="goToHandle"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Handling Fever"
+            android:text="@string/Handling_Fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#009688" />
     </LinearLayout>
