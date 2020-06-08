@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#03A9F4"
-            android:onClick="goToLogActivity"
+
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/Log_Body_Temperature"
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#03A9F4"
-            android:onClick="goToNormalActivity"
+
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/Check_Normal_Range"
@@ -98,7 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#03A9F4"
-            android:onClick="goToMechanism"
+
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/Mechanism_of_Fever"
@@ -117,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="#03A9F4"
-            android:onClick="goToHandle"
+
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/Handling_Fever"

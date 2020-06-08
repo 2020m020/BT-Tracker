@@ -4,4 +4,8 @@
     <string name="Check_Normal_Range">Check Normal Range</string>
     <string name="Mechanism_of_Fever">Mechanism of Fever</string>
     <string name="Handling_Fever">Handling Fever</string>
+    <string name="Please_log_your_temperature_today">Please log your temperature today</string>
+    <string name="Why_do_we_have_fever">Why do we have fever</string>
+    <string name="Useful_links_about_fever">Useful links about fever</string>
+    <string name="Normal_human_body_temperature_is_between36_37">Normal human body temperature is between 36.0-37.5</string>
 </resources>
