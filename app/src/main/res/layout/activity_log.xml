@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C8E4BF"
     tools:context=".LogActivity">
 
     <TextView
@@ -12,6 +13,9 @@
         android:layout_height="wrap_content"
         android:text="@string/Please_log_your_temperature_today"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#28BBEA"
+        android:textColorHint="#732929"
+        android:textColorLink="#733535"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,6 +39,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EC9D9D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
